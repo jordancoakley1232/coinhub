@@ -21,8 +21,8 @@ const App2 = () => {
                 <MarketHighlights />
                 <Switch>
                     <Route path="/coinhub" exact component={Home} />
-                    <Route path="/gainers" exact component={GainersPage} />
-                    <Route path="/losers" exact component={LosersPage} />
+                    <Route path="/coinhub/gainers" exact component={GainersPage} />
+                    <Route path="/coinhub/losers" exact component={LosersPage} />
                 </Switch>
                 <CallToAction />
                 <ScrollUpButton />
