@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coinhub/static/css/main.2271879c.chunk.css",
-    "main.js": "/coinhub/static/js/main.74879b95.chunk.js",
-    "main.js.map": "/coinhub/static/js/main.74879b95.chunk.js.map",
+    "main.js": "/coinhub/static/js/main.e450e407.chunk.js",
+    "main.js.map": "/coinhub/static/js/main.e450e407.chunk.js.map",
     "runtime-main.js": "/coinhub/static/js/runtime-main.0934a661.js",
     "runtime-main.js.map": "/coinhub/static/js/runtime-main.0934a661.js.map",
     "static/js/2.7968408e.chunk.js": "/coinhub/static/js/2.7968408e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.0934a661.js",
     "static/js/2.7968408e.chunk.js",
     "static/css/main.2271879c.chunk.css",
-    "static/js/main.74879b95.chunk.js"
+    "static/js/main.e450e407.chunk.js"
   ]
 }
