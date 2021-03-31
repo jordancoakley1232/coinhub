@@ -1,0 +1,73 @@
+.call-to-action{
+    height: 400px;
+    // border: 2px solid red;
+    // background-color: rgba(138, 72, 224, 0.472);
+    display: flex;
+}
+
+.start-earning-container{
+    width: 50%;
+    height: 100%;
+    // border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 17, 126);
+}
+
+.earning-text{
+    // border: 2px solid red;
+    width: 350px;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(64, 17, 126);
+
+    h1{
+        background-color: rgb(64, 17, 126);
+    }
+
+    p{
+        background-color: rgb(64, 17, 126);
+    }
+    a{
+        cursor: pointer;
+        width: 45%;
+        height: 50px;
+        background: #1652f0;
+        border: 1px solid #1652f0;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+            background: #053bc3;
+        }
+    }
+
+    @media screen and (max-width: 780px) {
+        
+    }
+}
+
+.call-image-container{
+    width: 50%;
+    background-image: url('https://assets.coinbase.com/assets/earn-upsell-desktop.852a74929173d0974480694525be02ab.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+@media screen and (max-width: 780px) {
+    .start-earning-container{
+        width: 100%;
+        // border: 2px solid red;
+    }
+
+    .call-image-container {
+        display: none;
+    }
+}

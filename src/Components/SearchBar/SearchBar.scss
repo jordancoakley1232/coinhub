@@ -1,0 +1,38 @@
+
+
+.coin-filter-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+     margin-bottom: 20px;
+    width: 100%;
+            // border: 2px solid red;
+
+
+    .coin-filter-items {
+        width: 80%;
+        max-width: 1180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // border: 2px solid red;
+
+
+        .filter-items{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            width: 35%;
+       @media screen and (max-width: 700px) {
+        //    flex-direction: column;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+        }
+        @media screen and (max-width: 700px) {
+        flex-direction: column;
+    }
+    }
+
+    
+}
