@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Switch, Route } from "react-router-dom";
 import ScrollUpButton from "react-scroll-up-button";
 import "./App.css";
 
@@ -13,23 +13,23 @@ import GainersPage from "./Pages/GainersPage";
 import LosersPage from "./Pages/LosersPage";
 
 
-const App2 = () => {
+const App = () => {
     return (
-        <Router>
+        <HashRouter>
             <div className="App">
                 <NavBar />
                 <MarketHighlights />
                 <Switch>
-                    <Route path="/coinhub" exact component={Home} />
-                    <Route path="/coinhub/gainers" exact component={GainersPage} />
-                    <Route path="/coinhub/losers" exact component={LosersPage} />
+                    <Route path="/" exact component={Home} />
+                    <Route path="/gainers" exact component={GainersPage} />
+                    <Route path="/losers" exact component={LosersPage} />
                 </Switch>
                 <CallToAction />
                 <ScrollUpButton />
             </div>
-        </Router>
+        </HashRouter>
     )
 }
 
 // In each route we need the search bar and list of coins. 
-export default App2
+export default App
